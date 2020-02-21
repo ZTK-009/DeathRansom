@@ -7,7 +7,7 @@ A ransomware is malware that encrypts all your files and shows a ransom request,
 ## How it works?
 
 First, the script checks if it's in a sandbox, debugger, vm, etc, and try bypass it.                                                       
-It then encrypts all files starting with the defined directory.                                                                          
+It then encrypts all files starting with the defined directory on the line 60 in deathransom.py.                                                                          
 Then, downloads the ransom request script, disable cmd, taskmanager and the registry tools. And starts the counter to delete the files.
 
 ## How to use?
