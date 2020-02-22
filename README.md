@@ -12,7 +12,7 @@ Then, downloads the ransom request script, disable cmd, taskmanager and the regi
 
 ## How to use?
 
-Install the requiriments typing: ``` pip install -r requirements.txt ```                                                                 
+Install the requiriments typing: ``` pip install -r requirements.txt ``` and ``` python3 -m pip install PyQt5 ```                       
 Generate the keys, upload the public key to pastebin, copy the raw link, and change the site on the line 7 in deathransom.py  ``` python generate_key.py ```                                                                                                                     
 Transform time_script.py and main.py(Located at Ransom Request) into exe.                                                      
 Transform the time_script into exe using pyinstaller in python2 version typing ``` pyinstaller --onefile --windowed <FILE> ```                                                                                                                                    
