@@ -10,5 +10,3 @@ def check():
         if mac == macs:
             sys.exit(0)
     return True
-
-check()
