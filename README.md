@@ -59,7 +59,7 @@ If the user not move the mouse in a seted time the malware not be executed.
 
 ## How to edit the Ransom Request
 
-To edit, you need install the [![PySide2]](https://pypi.org/project/PySide2/)
+To edit, you need install the [PySide2](https://pypi.org/project/PySide2/)
 
 ## Demonstration Video
 
