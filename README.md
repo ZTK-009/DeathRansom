@@ -1,4 +1,5 @@
 # DeathRansom
+Copyright (c) 2020 ReddyyZ
 
 ## What is a ransomware?
 
