@@ -57,6 +57,10 @@ If the user does not click the number of times necessary the malware not will be
 
 If the user not move the mouse in a seted time the malware not be executed.
 
+## How to edit the Ransom Request
+
+To edit, you need install the [![PySide2]](https://pypi.org/project/PySide2/)
+
 ## Demonstration Video
 
 [![Demonstration Video](https://img.youtube.com/vi/N3Km-TpPBp0/maxresdefault.jpg)](https://www.youtube.com/watch?v=N3Km-TpPBp0)
