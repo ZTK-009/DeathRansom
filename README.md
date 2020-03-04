@@ -68,6 +68,8 @@ To edit, you need install the [PySide2](https://pypi.org/project/PySide2/). Open
 
 Click on the image
 
+## Video de demonstração PT-BR
+
 [![Video de demonstração PT-BR](https://img.youtube.com/vi/wiWBa-SfNCU/maxresdefault.jpg)](https://www.youtube.com/watch?v=wiWBa-SfNCU)
 
 Clique na imagem
