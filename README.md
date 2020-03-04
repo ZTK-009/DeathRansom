@@ -67,3 +67,7 @@ To edit, you need install the [PySide2](https://pypi.org/project/PySide2/). Open
 [![Demonstration Video](https://img.youtube.com/vi/N3Km-TpPBp0/maxresdefault.jpg)](https://www.youtube.com/watch?v=N3Km-TpPBp0)
 
 Click on the image
+
+[![Video de demonstração PT-BR](https://img.youtube.com/vi/wiWBa-SfNCU/maxresdefault.jpg)](https://www.youtube.com/watch?v=wiWBa-SfNCU)
+
+Clique na imagem
